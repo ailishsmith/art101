@@ -4,9 +4,32 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #ffffff87;
-    background-color: #dcdad166;
+    border: 2px red;
+    background-color: #ffffff3f;
+    border-style: dotted;
+    color: blue
   }
   #content {
-    background-image: "./img/moth-photo.jpeg";
+   background-color: #ffffff3f;
+   border: 2px red;
+   border-style: dotted;
+   color: blue;
   }
+  h1, h2 {
+    color:red;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: center;
+  }
+  img {
+   max-height: 500px;
+  }
+  p {
+    font-family: monospace;
+    text-align: left;
+    text-indent: 20px;
+  }
+  body {
+background-color: azure; 
+ }
+
