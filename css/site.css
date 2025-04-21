@@ -4,11 +4,16 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: rgb(2, 2, 100);
+  background-image: url('../img/moth-photo.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  height: 100vh;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3,p {
+h1,h2,h3,p,li,ul {
   font-family: monospace;
 }
 h2,h3 {
@@ -29,7 +34,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px red;
-  background-color: rgb(148, 179, 250);
+  background-color: rgba(148, 179, 250, 0.445);
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -37,5 +42,5 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px red;
-  background-color: rgb(196, 213, 254);
+  background-color: rgba(196, 213, 254, 0.453);
 }

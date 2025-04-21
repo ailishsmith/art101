@@ -30,6 +30,11 @@
     text-indent: 20px;
   }
   body {
-background-color: azure; 
+    background-image: url('../img/moth-photo.jpeg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    margin: 0;
+    height: 100vh;
  }
 
