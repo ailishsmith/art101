@@ -4,5 +4,13 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
   }
+#bus_pic {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.output {
+  font-family: monospace;
+}
