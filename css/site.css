@@ -30,7 +30,6 @@ h1 {
 }
 p {
   color:rgb(0, 0, 98);
-  line-height: 5px;
   font-size: small;
 }
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
