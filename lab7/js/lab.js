@@ -21,4 +21,4 @@ function sortName() {
 }
 
 // output
-document.writeln("yeah, u were wrong... here's ur real name: ", sortUserName(), "</br>");
+document.writeln("yeah, u were wrong... here's ur real name: ", sortName(), "</br>");
