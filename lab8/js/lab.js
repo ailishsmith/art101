@@ -24,9 +24,3 @@ let x = array.map(mathStuff);
 
 // new function in action, should return [.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5]
 console.log("those numbers but changed a bit more : " + result2 );
-
-// task x: map results data
-let mapResults = result + result2;
-
-// task x: Use jQuery to select the element by its ID and set the HTML content
-$("#output").html(mapResults);
