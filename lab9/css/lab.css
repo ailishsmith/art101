@@ -9,3 +9,11 @@
 .output {
   font-family: monospace;
 }
+
+.special {
+  background-color: blue;
+  border: dotted 50px red;
+  color: lightblue;
+  font-weight: bold;
+  font-family: monospace;
+}
