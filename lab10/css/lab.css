@@ -9,3 +9,24 @@
 .output {
   font-family: monospace;
 }
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  font-family: monospace;
+  font-size: 0.8em;
+}
+#make-convo {
+  color: blue;
+  font-family: monospace;
+  font-weight: bold;
+  font-style: italic;
+  border-color: blue;
+  border-width: 5px;
+  border-style: dotted;
+}
