@@ -1,19 +1,20 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-  }
 
 .output {
   font-family: monospace;
 }
-
+.minor-section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(196, 213, 254, 0.453);
+}
 .special {
-  background-color: blue;
-  border: dotted 50px red;
-  color: lightblue;
-  font-weight: bold;
-  font-family: monospace;
+  display: block;
+  max-width: 100%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: white;
 }
