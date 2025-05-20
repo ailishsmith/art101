@@ -2,19 +2,39 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
-.output {
-  font-family: monospace;
-}
+
 .minor-section {
   padding: 20px;
   margin-bottom: 20px;
   background-color: rgba(196, 213, 254, 0.453);
+  font-family: monospace;
 }
 .special {
+    h1, h2 {
+      color:red;
+      font-family: monospace;
+      font-style: italic;
+      font-size: 70px;
+      font-weight: bold;
+      };
+    p {
+    color:red;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 45px;
+    font-weight: bold;
+    };
   display: block;
   max-width: 100%;
   margin: 3px;
   padding: 5px 10px;
   border-radius: 15px;
   background-color: white;
+  min-block-size: 1000%;
+  color:red;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 50px;
+  font-style: italic;
+
 }

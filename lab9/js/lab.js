@@ -11,6 +11,7 @@ $("#Challenge").append("<button id='button-challenge'>Make Special</button>");
     // add a click listener to the challenge button
     $("#button-challenge").click(function(){
         // now add (or subtract) the "special" class to the section
+        $("#Challenge").toggleClass("minor-section");
         $("#Challenge").toggleClass("special");
     });
 
@@ -19,6 +20,7 @@ $("#Problems").append("<button id='button-problems'>Make Special</button>");
     // add a click listener to the problems button
     $("#button-problems").click(function(){
         // now add (or subtract) the "special" class to the section
+        $("#Problems").toggleClass("minor-section");
         $("#Problems").toggleClass("special");
     });
 
@@ -27,5 +29,6 @@ $("#Results").append("<button id='button-results'>Make Special</button>");
     // add a click listener to the results button
     $("#button-results").click(function(){
         // now add (or subtract) the "special" class to the section
+        $("#Results").toggleClass("minor-section");
         $("#Results").toggleClass("special");
     });
