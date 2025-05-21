@@ -8,4 +8,37 @@
 
 .output {
   font-family: monospace;
+  font-size: large;
+}
+
+.element {
+  display: block;
+  max-width: 100%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: rgba(148, 179, 250, 0.678);
+  min-block-size: 1000%;
+  color:rgb(0, 0, 98);
+  font-family: monospace;
+  font-weight: bold;
+  font-size: large;
+  font-style: italic;
+}
+
+#button {
+  color: blue;
+  font-family: monospace;
+  font-weight: bold;
+  border-color: blue;
+  border-style: solid;
+}
+
+#input {
+color: blue;
+font-family: monospace;
+font-size: medium;
+font-weight: bold;
+border-style: solid;
+border-color: blue;
 }
