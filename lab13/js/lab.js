@@ -29,4 +29,6 @@ for (let i=1; i<=200; i++) {
     $("#output").html(oneLongString);
   }
 // Don't forget to call your function.
-fizzBuzzBoom();
+$(document).ready(function() {
+    fizzBuzzBoom();
+});
