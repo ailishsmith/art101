@@ -23,7 +23,7 @@ for (let i=1; i<=200; i++) {
     }else {
         str = i + " " + str + "!";
     }
-    oneLongString += str + "<br>";
+    oneLongString += `<div class="item">${str}</div>`;
     }
   //Make it so the output of your program appears in your output div. 
     $("#output").html(oneLongString);
