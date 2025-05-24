@@ -5,7 +5,6 @@
 // building a long string and inserting it once
 function fizzBuzzBoom(){
     let oneLongString = "";
-}
 // Use a for loop to print all the numbers from 1 to 200. Test and debug.
 for (let i=1; i<=200; i++) {
     let str = "";
@@ -23,6 +22,8 @@ for (let i=1; i<=200; i++) {
         str = i;
     }else {
         str = i + " " + str + "!";
+    }
+    oneLongString += str + "<br>";
     }
   //Make it so the output of your program appears in your output div. 
     $("#output").html(oneLongString);
