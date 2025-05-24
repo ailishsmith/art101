@@ -4,7 +4,7 @@
 
 // building a long string and inserting it once
 function fizzBuzzBoom(){
-    let oneLongString = "";
+    let output = "";
 // Use a for loop to print all the numbers from 1 to 200. Test and debug.
 for (let i=1; i<=200; i++) {
     let str = "";
@@ -18,15 +18,15 @@ for (let i=1; i<=200; i++) {
     if (i % 7 == 0)
       str += "boom";
   // If the number is a multiple of more than one 3, 5 or 7, it should combine Fizz, Buzz, and Boom. For example, if the number is a multiple of 3 AND 5, it should print "FizzBuzz!" and so on.
+//formatting tips from ChatGPT
     if (str === "") {
-        str = i;
+        output += `<div class="item">${i}</div>`;
     }else {
-        str = i + " " + str + "!";
+        output += `<div class="item fbText">${i} ${str}!</div>`;
     }
-    oneLongString += `<div class="item">${str}</div>`;
-    }
+   }
   //Make it so the output of your program appears in your output div. 
-    $("#output").html(oneLongString);
+    $("#output").html(output);
   }
 // Don't forget to call your function.
 $(document).ready(function() {

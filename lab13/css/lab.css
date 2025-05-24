@@ -17,6 +17,11 @@
 #output .item {
   background-color: rgba(148, 179, 250, 0.445);
   padding: 5px;
-  color:rgb(0, 0, 98);
+  border-color:rgb(0, 0, 98);
   border-radius: 2px;
+}
+
+.fbText {
+  color: blue;
+  font-weight: bold;
 }
