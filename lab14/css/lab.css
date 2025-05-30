@@ -6,6 +6,20 @@
     margin-bottom: 10px;
   }
 
-.output {
+#output {
   font-family: monospace;
+}
+
+#lab7_debug_code {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lab7_debug_console {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
