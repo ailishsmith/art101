@@ -5,6 +5,7 @@
 // blockLinks to an external site.
 
 // sortName: my function that takes user input and sorts the letters of their name. 
+let sorted = sortName()
 function sortName() {
     let userName = window.prompt("what's ur name? i bet ur wrong...");
     console.log("userName =", userName);
@@ -21,4 +22,4 @@ function sortName() {
 }
 
 // output
-document.writeln("yeah, u were wrong... here's ur real name: ", sortName(), "</br>");
+document.writeln("yeah, u were wrong... here's ur real name: " + sorted + "</br>");
