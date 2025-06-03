@@ -6,6 +6,37 @@
     margin-bottom: 10px;
   }
 
-.output {
+#output {
   font-family: monospace;
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 
+    -4px -4px 0 blue,
+    4px -4px 0 blue,
+    -4px 4px 0 blue,
+    4px 4px 0 blue;
+}
+
+/* from ChatGPT */
+#output img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto; /* centers image and adds spacing */
+}
+
+#activate {
+  font-family: monospace;
+  font-weight: bold;
+  background-color: rgba(196, 213, 254, 0.453);
+  min-height: 40px;
+  color:rgb(0, 0, 98);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 6px rgb(0, 0, 98);
 }
