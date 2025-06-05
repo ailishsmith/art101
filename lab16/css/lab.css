@@ -6,6 +6,7 @@
     margin-bottom: 10px;
   }
 
-.output {
+#output {
   font-family: monospace;
+  max-width: 800px;
 }
